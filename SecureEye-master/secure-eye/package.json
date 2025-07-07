@@ -1,0 +1,27 @@
+{
+  "name": "secure-eye",
+  "version": "1.0.5",
+  "description": "A CLI tool to audit smart contracts using Gemini API",
+  "main": "index.js",
+  "bin": {
+    "SecureEye": "index.js"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "cli",
+    "smart contract",
+    "audit",
+    "openai"
+  ],
+  "author": "Shubham Kumar",
+  "license": "MIT",
+  "dependencies": {
+    "@google/generative-ai": "^0.17.1",
+    "commander": "^8.0.0",
+    "dotenv": "^10.0.0",
+    "inquirer": "^8.0.0",
+    "openai": "^4.53.0"
+  }
+}
